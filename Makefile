@@ -2,7 +2,7 @@ CXX = g++
 CXXFLAGS = -std=c++11
 LIBS = -lkrpc -lprotobuf -lz
 
-SRC = main.cpp BulletAutopilot.cpp
+SRC = main.cpp spacecraft/*.cpp
 TARGET = spacecraft_autopilot.run
 
 all: build run
